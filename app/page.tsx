@@ -125,7 +125,7 @@ export default function Home() {
                   border: '1px solid rgba(60, 168, 255, 0.3)'
                 }}
               >
-                Powered by Gemini 1.5 Flash
+                Powered by OpenRouter AI
               </motion.div>
               <h1 style={{ fontSize: '72px', marginBottom: '16px', lineHeight: 1.1 }}>
                 Smart AI Resume <br />
@@ -328,7 +328,7 @@ export default function Home() {
             <span>|</span>
             <span>Instant AI Analysis</span>
             <span>|</span>
-            <span>Gemini 1.5 Powered</span>
+            <span>OpenRouter Powered</span>
           </div>
         )}
       </div>

@@ -53,6 +53,9 @@ export default function Profile() {
             if (res.ok) {
                 const data = await res.json();
                 setProfile({ ...profile, summary: data.polished });
+                if (data.warning) {
+                    alert(data.warning);
+                }
             }
         } catch (error) {
             console.error(error);
